@@ -92,6 +92,9 @@ const Index = () => {
             </div>
           </div>
 
+          {/* ML Insights */}
+          <MLInsightsPanel />
+
           {/* AI Recommendations */}
           <AIRecommendations />
         </div>
