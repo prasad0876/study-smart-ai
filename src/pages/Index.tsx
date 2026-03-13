@@ -8,6 +8,7 @@ import ExamReadinessPanel from "@/components/ExamReadinessPanel";
 import RecentSessions from "@/components/RecentSessions";
 import { Clock, TrendingUp, Calendar, BookOpen } from "lucide-react";
 import { subjects, weeklyData, getDaysUntilExam } from "@/lib/study-data";
+import MLInsightsPanel from "@/components/MLInsightsPanel";
 
 const Index = () => {
   const [activeTab, setActiveTab] = useState("overview");
